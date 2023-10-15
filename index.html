@@ -2,18 +2,35 @@
 <html lang="en">
 <head>
 <title>Lucy Xiang</title>
-<!--insert link to CSS <link rel="stylesheet" href="styles.css"> -->
+<link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
 
+<!--For this assignment I wanted to create a cohesive website BUT very simple while accomplishing all the requirements without being too overwhelmed with the design-->
 <h1>Lucy Xiang</h1>
 
+<!--MenuOption start-->
+<div class="topnav">
+  <a class="active" href="index.html">About Me</a>
+  <a href="page2.html">Other Projects</a>
+</div>
+<!--MenuOption end-->
+ 
+<!--Sections of text are taken from my LinkedIn, this is not my full polished resume but for the purpose of this assignment I wanted to make it as simple as possible-->
 <h2>About Me</h2>
-<p>Graduate from the University of Toronto with research and writing skills in both the Arts and Sciences,
+<p>I grew up in the suburbs of Eastern Ontario and I now live and work in Toronto. Graduate from the University of Toronto with research and writing skills in both the Arts and Sciences,
  particularly in environmental subjects. Experience working in a non-profit organization conducting administrative tasks,
  detail-oriented research, mapping funding and network opportunities, and delivering program assistance. Passionate about nature,
- environmental justice and community building. Currently in Fleming College's Geographic Information Systems Application Specialist 
- Post Graduate Program. </p>
+ environmental justice and community building. Currently in Fleming College's Geographic Information Systems (GIS) Application Specialist 
+ Post Graduate Program. I live with a cat named Nietzsche.</p>
+ 
+  <!--Really wanted to include a picture of my cat!-->
+ 
+ <div class=centre>
+ <!--ImageOption begin-->
+ <img src="mycat.jpg" alt="Picture of Nietzsche the cat">
+ <!--ImageOption end-->
+ </div>
  
  <h2>Education</h2>
  <h3>Fleming College 2023-2024</h3>
@@ -45,7 +62,11 @@ to evaluate complex environmental problems and sustainable solutions for improve
 
 <h2>Work Experience</h2>
 <h3>Transcriptionist and Speech Recognition QA 2021 - present</h3>
-<h4>Winterlight Labs, Toronto, ON</h4>
+<!--LinkOption start-->
+<div class="exlink">
+	<a href="https://winterlightlabs.com/" target="_blank">Winterlight Labs, Toronto, ON</a>
+</div>
+<!--LinkOption end-->
 <ul>
 	<li>Providing manual annotations of audio files and corrections of automatically produced transcripts while inspecting and tagging audio samples for quality assurance.</li>
 	<li>Annotating different types of linguistic and paralinguistic events.</li>
@@ -53,7 +74,11 @@ to evaluate complex environmental problems and sustainable solutions for improve
 </ul>
 
 <h3>Program Development Intern 2019</h3>
-<h4>The Jane Goodall Institute of Canada, Toronto, ON</h4>
+<!--LinkOption start-->
+<div class="exlink">
+	<a href="https://janegoodall.ca/" target="_blank">The Jane Goodall Institute of Canada, Toronto, ON</a>
+</div>
+<!--LinkOption end-->
 <ul>
 	<li>Mapped institutional funding opportunities, built a database of like-minded organizations and research opportunities in Canada and abroad using MS Excel.</li>
 	<li>Assisted with administrative tasks like database management and preparing thank you notes for donors.</li>
@@ -62,11 +87,15 @@ to evaluate complex environmental problems and sustainable solutions for improve
 	<li>Reported notes and participated in Uncovering Common Ground program workshops that connected Indigenous and non-Indigenous youth to discuss reconciliation and decolonization.</li>
 </ul>
 
-<!--use image as link to next page-->
+<!--Included a button to go to the next page without scrolling back up to navigation bar-->
 
+<!--ImageOption begin (use image as link to next page) -->
+<div class=centre>
 <a href="page2.html">
 <img src="nextarrow.png" alt="Next">
 </a>
+</div>
+<!--ImageOption end-->
 
 </body>
 </html>
