@@ -1,0 +1,111 @@
+/* Colour inspiration from https://anaritamorais.com/ */
+
+body {
+  background-color: #d6dfd1;
+  margin: 100px;
+}
+
+/*Top Navigation bar sourced and modified from https://www.w3schools.com/howto/howto_js_topnav.asp*/
+
+/* Add a yellowish-green background color to the top navigation and make it rounded*/
+.topnav {
+  background-color: #c9c062;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 320px;
+  text-decoration: none;
+  font-family: "Lucinda Console", monospace;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover to an orange*/
+.topnav a:hover {
+  background-color: #fbbf77;
+  color: black;
+}
+
+/* Add a color to the active/current link to burnt orange*/
+.topnav a.active {
+  background-color: #bf5700;
+  color: white;
+}
+/*Centre and style main head of site to be the biggest size with a rounded border*/
+h1 {
+  color: #013220;
+  text-align: center;
+  font-family: "Lucinda Console", monospace;
+  font-size: 60px;
+  font-weight: bolder;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+/*Centre and style titles for sections while making a top border that separates the different sections*/
+h2 {
+	text-align: center;
+	font-family: "Lucinda Console", monospace;
+	font-size: 30px;
+	font-weight: 800;
+	border-top-style: groove;
+	border-top-width: thick;
+	padding-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-color: #7393B3;
+}
+/*Styling work positions and school titles to be cohesive with rest of site*/
+h3 {
+	font-family: "Lucinda Console", monospace;
+	font-size: 25px;
+	font-weight: 600;
+}
+/*Styling names of organizations and school degrees to be cohesive with rest of site*/
+h4 {
+	font-family: "Lucinda Console", monospace;
+	font-size: 21px;
+	font-weight: 400;
+}
+/*Making text paragraphs cohesive and having the smallest size font. Adding padding to space out elements that come after.*/
+p {
+  font-family: "Lucinda Console", monospace;
+  font-size: 15px;
+  padding-bottom: 40px;
+}
+/*Making bulleted lists cohesive with paragraphs. Adding padding to space out elements that come after.*/
+ul {
+	font-family: "Lucinda Console", monospace;
+	font-size: 15px;
+	padding-bottom: 40px;
+}
+
+/*Formatting external links to workplace websites (Learned from https://www.w3schools.com/css/css_link.asp)*/
+.exlink {
+	font-family: "Lucinda Console", monospace;
+	font-size: 21px;
+}
+/*Removing the underline from link*/
+.exlink a:link {
+	text-decoration: none;
+}
+/*Changing colour of link when it is visited*/
+.exlink a:visited {
+	color: #013220;
+}
+/*Putting an underline when mouse hovers over it*/
+.exlink a:hover {
+  text-decoration: underline;
+}
+
+/* Centre cat, arrow and tree images (Learned to centre images from https://www.freecodecamp.org/news/how-to-center-an-image-in-css/)*/
+.centre {
+	text-align: center;
+}
