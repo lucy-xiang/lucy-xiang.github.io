@@ -109,3 +109,10 @@ ul {
 .centre {
 	text-align: center;
 }
+
+#certs {
+	margin-left: 500px;
+	margin-right: 500px;
+	padding: 60px;
+	background-color: #c9c062;
+}
